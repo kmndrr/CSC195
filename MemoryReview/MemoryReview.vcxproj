@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{239f46dc-0498-498e-bbd2-063c2f5ce6e1}</ProjectGuid>
-    <RootNamespace>Memory</RootNamespace>
+    <ProjectGuid>{16534d8f-bb36-4798-ab0a-889636603e3f}</ProjectGuid>
+    <RootNamespace>MemoryReview</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,8 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Containers.cpp" />
-    <ClCompile Include="Memory.cpp" />
+    <ClCompile Include="MemoryReview.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

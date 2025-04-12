@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Memory.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Containers.cpp">
+    <ClCompile Include="MemoryReview.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
