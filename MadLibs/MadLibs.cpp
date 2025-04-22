@@ -9,7 +9,7 @@ void initialize() {
     int number;
     string disaster;
 
-    srand(static_cast<unsigned>(time(0)));
+    srand(time(0));
     int randomNum = (rand() % 10);
 
     cout << "Enter Celebrity: " << endl;
