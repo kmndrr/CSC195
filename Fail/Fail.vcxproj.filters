@@ -15,28 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Classes.cpp">
+    <ClCompile Include="Fail.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Database.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Pizza.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NewYork.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Chicago.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="California.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

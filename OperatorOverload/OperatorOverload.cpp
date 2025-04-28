@@ -2,19 +2,24 @@
 //
 
 #include <iostream>
+#include "Point.h"
 
+using namespace std;
+
+void operator + (Point& p1, Point& p2)
+{
+	Poinr, point;
+	p1.x += p2.x;
+	p1.y += p2.y;
+}
 int main()
 {
-    std::cout << "Hello World!\n";
+	Point point1(10,14);
+	point1.Write(cout);
+
+	Point point2(5, 8);
+
+	point1.Add(point2);
+
+	point.Write(cout);
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{27e45c87-a238-4541-9eac-1e93a7e54b4f}</ProjectGuid>
-    <RootNamespace>Classes</RootNamespace>
+    <ProjectGuid>{958c2144-a556-48fc-b3e8-71ddd58e36d6}</ProjectGuid>
+    <RootNamespace>Fail</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,15 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Classes.cpp" />
-    <ClCompile Include="Database.cpp" />
+    <ClCompile Include="Fail.cpp" />
     <ClCompile Include="Main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="California.h" />
-    <ClInclude Include="Chicago.h" />
-    <ClInclude Include="NewYork.h" />
-    <ClInclude Include="Pizza.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
