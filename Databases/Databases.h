@@ -11,11 +11,13 @@
 
 using namespace std;
 
-enum AnimalType { DOG = 1, CAT };
+
+
+enum AnimalType { DOG, CAT };
 
 class Database {
 private:
-   vector<unique_ptr<Animal>> a_animals;
+   vector<unique_ptr<Animal>> a_animals; //Stack Overlow - explained unique_pointer 
 
 public:
     ~Database() = default;

@@ -2,13 +2,14 @@
 #define _CRTDBG_MAP_ALLOC
 #include <stdlib.h>
 #include <crtdbg.h>
+#include "Databases.h"
 
 using namespace std;
 
 int main()
 {
 	// Before:
-	Database database;
+	//Database database;
 
 	// After:
 	Database* database = new Database;
@@ -24,9 +25,10 @@ int main()
 	cout << "enter filename: ";
 	string name;
 	cin >> name;
-	database.Load(name); // or database.Save(name);
+	database->Save(name);
+	database->Load(name); // or database.Save(name);
 
-	delete database;
+	//delete database;
 	_CrtDumpMemoryLeaks();
 
 }
