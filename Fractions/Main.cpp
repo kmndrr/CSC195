@@ -1,10 +1,15 @@
 #include <iostream>
 #include "Fraction.h"
+using namespace mathlib;
 
 using namespace std;
 
 int main()
 {
+    Fraction* fraction1 = new Fraction;
+    Fraction* fraction2 = new Fraction;
+    Fraction* fraction3 = new Fraction;
+
     Fraction fraction1{ 15, 5 };
     cout << fraction1 << endl;
 
